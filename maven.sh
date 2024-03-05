@@ -1,4 +1,4 @@
 #!/bin/bash
-sudo yum install maven 
+sudo apt install maven -y
 systemctl enable maven 
 maven -version
